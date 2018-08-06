@@ -1,0 +1,227 @@
+
+/* ----------------------Home Page----------------------*/
+
+.home-body {
+    background: url(h.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.home-body h2 {
+    margin: auto;
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: solid;
+    border-radius: 10px;
+}
+
+.home-body .links {
+    border: solid;
+    border-radius: 10px;
+    width: 550px;
+    margin: auto;
+    margin-top: 200px;
+    margin-bottom: 298px;
+    text-align: center;
+    background: wheat;
+}
+
+
+
+/* ----------------------GREETINGS----------------------*/
+
+.greetings {
+    background: url(greetings.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.greetings h2 {
+    margin: auto;
+    display: block;
+    width: 300px;
+    text-align: center;
+    font-size: 45px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.greetings p {
+    font-size: 25px;
+}
+
+.greetings .greet-input, .greet-buttons, #print-area {
+    margin: auto;
+    display: block;
+    text-align: center;
+    margin-top: 25px;
+}
+
+#print-area {
+    width: 800px;
+    height: 250px;
+    margin-bottom: 123px;
+}
+
+/*----------------------Calculator----------------------*/
+
+.calculator {
+    background: url(calculator-background.jpg), olivedrab;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 75%;
+    background-position-y: 63px;
+}
+
+.calculator h2, .amount, #results {
+    margin: auto;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 65px;
+    color: wheat;
+}
+
+#results {
+    height: 200px;
+    margin-bottom: 89px;
+}
+
+
+
+/*----------------------SENTENCES----------------------*/
+
+.Sentences {
+    background-image: url(sentence.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.Sentences h2 {
+    text-align: center;
+    width: 600px;
+    margin: auto;
+    margin-top: 50px;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: black;
+}
+
+.text-bar {
+    margin: auto;
+    margin-top: 30px;
+    width: 800px;
+    text-align: center;
+}
+
+#output {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 276px;
+    height: 200px;
+    width: 800px;
+    text-align: center;
+    overflow: auto;
+}
+
+/*----------------------DICE ROLLER----------------------*/
+
+.dice-roll {
+    background-image: url(dice.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.dice-header, .dice-header img, .text-in-image {
+    width: 475px;
+    height: 200px;
+    margin: auto;
+}
+
+.dice-header {
+    margin-top: 20px;
+}
+
+.text-in-image {
+    color: white;
+    font-size: 35px;
+    width: 230px;
+    height: 30px;
+    position: relative;
+    top: -70px;
+}
+
+
+.roll-buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#roll-results {
+    text-align: center;
+    font-size: 30px;
+    color: wheat;
+    width: 800px;
+    margin: auto;
+    margin-top: 20px;
+    height: 40px;
+}
+
+#display-area {
+    width: 800px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    height: 241px;
+    overflow: hidden;
+    text-align: center;
+}
+
+/*----------------------Navigation----------------------*/
+
+.navigation {
+    border: solid;
+    border-radius: 10px;
+    background: black;
+}
+
+.navigation ul {
+    list-style: none;
+    padding: 0;
+    background: darkmagenta;
+}
+
+.navigation ul li {
+    display: inline-block;
+    text-align: center;
+    width: 19.784%;
+    background: black;
+}
+
+.navigation ul li a {
+    color: ghostwhite;
+    background: black;
+    padding: 17px 70px;
+}
+
+
+
+/* ----------------------FOOTER----------------------*/
+
+.footer {
+    border: solid;
+    border-radius: 10px;
+    display: block;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer ul li {
+    display: inline-block;
+    width: 480px;
+    text-align: center;
+}
