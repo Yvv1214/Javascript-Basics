@@ -1,5 +1,5 @@
 
-    var name = document.getElementById("name"),
+    var textBox = document.getElementById("textbox"),
     button = document.getElementById("button"),
     clear = document.getElementById("clear"),
     output = document.getElementById("output"),
@@ -39,9 +39,10 @@ var getPhrase = function getPhrase(wordList){
 }
 
 button.addEventListener("click", function(){
+
     var results = getPhrase(phrases1);
     results += " " + getPhrase(phrases2); 
-    results += " " + name.value;
+    results += " " + textBox.value;
     results += " " + getPhrase(phrases3);
     results += " " + getPhrase(phrases4);
     results += ".";
@@ -49,9 +50,16 @@ button.addEventListener("click", function(){
     output.innerHTML += '<p class="random-sentence">' + results + "</p>"; 
 });
 
+textbox.addEventListener("keyup", function(event){
+    event.preventDefault();
+    if(event.keyCode === 13){
+        button.click();
+    }
+})
+
 clear.addEventListener("click", function(){
     output.innerHTML = "";
-    name.value = "";
+    textBox.value = "";
 });
 
 var getRandomNumber = function getRandomNumber(min, max){
