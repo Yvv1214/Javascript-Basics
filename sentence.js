@@ -26,7 +26,7 @@
         "a fiersome dragon",
         "a scary ghost",
         "a beautiful young woman",
-        "a handome young man",
+        "a handsome young man",
         "Spiderman",
         "a fiery horse named Sparkles",
         "a puzzle with a picture of a lovely meadow",
