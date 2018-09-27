@@ -1,0 +1,180 @@
+body {
+    background-color: #d2eaff;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    padding: 1em;
+    background: #4d1456;
+}
+
+a#home {
+    text-decoration: none;
+    color: wheat;
+    padding: 0.7em;
+    font-size: 1.5em;
+}
+
+#home:hover {
+    background: mediumpurple;
+}
+
+h1 {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+table {
+    margin: auto;
+    box-shadow: 1px 3px 15px;
+}
+
+th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 1em;
+}
+
+th {
+    background: #5757c5;
+}
+
+td {
+    background: azure;
+}
+
+aside {
+    margin: 3.5em auto;
+    margin-bottom: 9em;
+    background: beige;
+    width: 80%;
+    text-align: center;
+    border-radius: 0.5em
+}
+
+footer {
+    border: solid;
+    border-radius: .5em;
+    background: azure;
+    margin-bottom: 1em;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 13%;
+}
+/*disable td background color and set 
+tr:hover {
+    background: yellow;
+} it will highlight the row */
+
+
+/*------------------------RESPONSIVE LAYOUT-----------------------------------*/
+@media (max-width: 30em){
+
+    body {
+        background-color: lightcyan;
+        font-family: sans-serif;
+    }
+
+    header {
+            text-align: center;
+            width: 100%;
+            margin: auto;
+            background: #dded3d;
+    }
+
+    header a {
+        color: #4d1456;
+    }
+
+    #home {
+        font-size: 1.5em;
+        text-decoration: none;
+    }
+    
+    table {
+        box-shadow: none;
+        border: none;
+    }
+
+    thead, aside {
+        display: none;
+    }
+
+    th,td {
+        padding: 0.5em;
+    }
+
+    td:nth-child(1):before{
+        content: 'Number';
+    }
+
+    td:nth-child(2):before {
+        content: 'Name';
+    }
+
+    td:nth-child(1),td:nth-child(2){
+        padding-left: 31%;
+        padding-right: 25%;
+    }
+
+    td:nth-child(1):before,td:nth-child(2):before{
+        font-weight: bold;
+        position: absolute;
+        left: 0.5em;
+    }
+
+    tr,td {
+        display: block;
+    }
+
+    tr {
+        position: relative;
+        margin-bottom: 1em;
+        box-shadow: 0 1px 10px black;
+    }
+
+    td{
+        border-top: none;
+    }
+
+    .number-data {
+        background: #CDDC39;
+        border-top: 1px solid;
+    }
+
+    .name-data {
+        background: aliceblue;
+    }
+
+    .actions {
+        position: absolute;
+        top: 0;
+        right: 0;
+        border: none;
+        background: none;
+    }
+
+    footer {
+        margin: auto;
+        background: #b6f2f3;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    footer ul {
+        display: inline-block;
+    }
+
+    footer ul li {
+        list-style: none;
+    }
+}
